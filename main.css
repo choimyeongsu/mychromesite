@@ -54,3 +54,14 @@ body{
     color:rgb(169,169,169);
     font-size: var(--medium);
 }
+
+.quote{
+    font-size:var(--small);
+    position:fixed;
+    bottom:0;
+    max-width:880px;
+    padding:0 10px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-align:center;
+}
