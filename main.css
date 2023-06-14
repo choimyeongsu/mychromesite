@@ -113,3 +113,80 @@ body{
     padding:10px 30px;
     color:white;
 }
+
+.bookmark-item-input-form{
+    background-color: rgba(255,255,255,0.1);
+    border:rgba(241,241,241,0.2) 0.px solid;
+    font-size:var(--small);
+    border-radius:5px;
+    padding:12px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.bookmark-item-input-form .bookmark-input{
+    margin-bottom:12px;
+}
+
+.bookmark-item-input-form .bookmark-input.lable{
+    margin-bottom:3px;
+    font-size:var(--xsmall);
+}
+
+.bookmark-item-input-form .bookmark-input input{
+    width:200px;
+    height:20px;
+    border-radius: 5px;
+    padding:5px;
+}
+
+.bookmark-item-input-form .bookmark-item-input-btn{
+    display:flex;
+    justify-content: center;
+    font-size:var(--xsmall);
+    margin-top:5px;
+}
+
+.bookmark-item-input-btn div{
+    padding:5px 35px;
+    border-radius:5px;
+    border:rgba(241,241,241,0.2) 0.5px solid;
+    cursor:pointer;
+}
+
+.bookmark-item-input-btn div:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+
+.bookmark-list a{
+    display:flex;
+    color:white;
+    text-decoration: none;
+}
+
+.bookmark-list .url-icon{
+    margin-right: 8px;
+}
+
+.url-icon img{
+    vertical-align: middle;
+}
+
+.bookmark-list .bookmark-item{
+    background-color: rgba(255,255,255,0.1);
+    border:rgba(241,241,241,0.2) 0.5px solid;
+    font-size:var(--small);
+    border-radius:5px;
+    padding:15px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.bookmark-item .del-btn{
+    font-size:var(--xxsmall);
+    color:lightgray;
+    vertical-align: middle;
+    cursor:pointer;
+}
